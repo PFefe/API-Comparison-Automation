@@ -7,6 +7,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"time"
 )
 
 // Request represents the structure of a request
@@ -28,6 +29,7 @@ type RequestResponse struct {
 	Response Response `json:"response"`
 }
 
+// readAuthToken reads the authorization token from a file
 func readAuthToken(filePath string) (string, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
@@ -54,6 +56,7 @@ func readAuthToken(filePath string) (string, error) {
 	return token.Authorization, nil
 }
 
+// readRequestResponse reads the request and response from a JSON file
 func readRequestResponse(filePath string) (*RequestResponse, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
@@ -78,8 +81,11 @@ func readRequestResponse(filePath string) (*RequestResponse, error) {
 	return &reqRes, nil
 }
 
+// sendAPIRequest sends the API request and returns the response
 func sendAPIRequest(req Request, authToken string) (*http.Response, error) {
-	client := &http.Client{}
+	client := &http.Client{
+		Timeout: 30 * time.Second, // Increase the timeout duration
+	}
 
 	httpReq, err := http.NewRequest(
 		req.Method,
@@ -102,9 +108,20 @@ func sendAPIRequest(req Request, authToken string) (*http.Response, error) {
 		authToken,
 	)
 
+	/*	fmt.Printf(
+			"Sending request to %s with method %s\n",
+			req.URL,
+			req.Method,
+		)
+		fmt.Printf(
+			"Request headers: %v\n",
+			httpReq.Header,
+		)*/
+
 	return client.Do(httpReq)
 }
 
+// compareResponses compares the original and new responses
 func compareResponses(original, new json.RawMessage) (jsondiff.Difference, string) {
 	opts := jsondiff.DefaultConsoleOptions()
 	diff, explanation := jsondiff.Compare(
@@ -154,32 +171,29 @@ func main() {
 			)
 			continue
 		}
-		// log the request URL
+
+		defer resp.Body.Close()
+
+		// Log the request URL
 		fmt.Printf(
 			"Request URL: %s\n",
 			reqRes.Request.URL,
 		)
-		// log the request method
+		// Log the request method
 		fmt.Printf(
 			"Request method: %s\n",
 			reqRes.Request.Method,
 		)
-		// log the request headers
+		// Log the request headers
 		fmt.Printf(
 			"Request headers: %v\n",
 			reqRes.Request.Headers,
 		)
-		// log the response status
+		// Log the response status
 		fmt.Printf(
 			"Response status: %d\n",
 			resp.StatusCode,
 		)
-		// log the response body
-		fmt.Printf(
-			"Response body: %s\n",
-			resp.Body,
-		)
-		defer resp.Body.Close()
 
 		body, err := io.ReadAll(resp.Body)
 		if err != nil {
@@ -189,6 +203,12 @@ func main() {
 			)
 			continue
 		}
+
+		// Log the response body
+		fmt.Printf(
+			"Response body: %s\n",
+			string(body),
+		)
 
 		originalResponse := reqRes.Response.Body
 		newResponse := json.RawMessage(body)
@@ -202,7 +222,7 @@ func main() {
 			diff,
 		)
 		fmt.Printf(
-			"Explanation: %s for the file %s \n",
+			"Explanation: %s for the file %s\n",
 			explanation,
 			filePath,
 		)
