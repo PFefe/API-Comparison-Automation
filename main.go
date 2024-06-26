@@ -29,6 +29,16 @@ type RequestResponse struct {
 	Response Response `json:"response"`
 }
 
+var Reset = "\033[0m"
+var Red = "\033[31m"
+var Green = "\033[32m"
+var Yellow = "\033[33m"
+var Blue = "\033[34m"
+var Magenta = "\033[35m"
+var Cyan = "\033[36m"
+var Gray = "\033[37m"
+var White = "\033[97m"
+
 // readAuthToken reads the authorization token from a file
 func readAuthToken(filePath string) (string, error) {
 	file, err := os.Open(filePath)
@@ -156,9 +166,9 @@ func main() {
 		"requests/request_agents-insights-top-statistics?type=leads.json",
 		"requests/request_charts-listings.json",
 		"requests/request_overview.json",
-		"requests/request_agents-insights-top-statistics?type=listings.jsonrequest_charts-lpl.json",
+		"requests/request_agents-insights-top-statistics?type=listings.json",
 		"requests/request_top-communities.json",
-		"requests/request_agents-insights-top-statistics?type=quality_score.jsonrequest_insights-v1-credits.json",
+		"requests/request_agents-insights-top-statistics?type=quality_score.json",
 		"requests/request_whatsapp-insights-daily.json",
 		"requests/request_agents.json",
 		"requests/request_insights-v1-filters.json",
@@ -199,7 +209,8 @@ func main() {
 		//check if the response status is 200
 		if resp.StatusCode != 200 {
 			fmt.Printf(
-				"Error: Response status is not 200 for the endpoint: %s\n",
+				Red+
+					"Error: Response status is not 200 for the endpoint: %s\n"+Reset,
 				reqRes.Request.URL,
 			)
 			continue
@@ -257,14 +268,14 @@ func main() {
 
 		if diffrence == "FullMatch" {
 			fmt.Printf(
-				" ✓ Difference: %s for the endpoint: %s \n",
+				Green+" ✓ No Difference: %s for the endpoint: %s \n"+Reset,
 				diff,
 				reqRes.Request.URL,
 			)
 			continue
 		} else {
 			fmt.Printf(
-				" X Difference: %s for the endpoint: %s \n",
+				Red+" ✗ Difference Found: %s for the endpoint: %s \n"+Reset,
 				diff,
 				reqRes.Request.URL,
 			)
