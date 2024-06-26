@@ -1,7 +1,7 @@
 {
   "request": {
-    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/credits",
-    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/credits",
+    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/listings/overview?start_date=2024-05-25&end_date=2024-06-25&offering_type=rental&type=residential",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/listings/overview?start_date=2024-05-25&end_date=2024-06-25&offering_type=rental&type=residential",
     "method": "GET",
     "headers": {
       "accept": "*/*",
@@ -23,17 +23,21 @@
     "status": 200,
     "body": {
       "data": {
-        "credits": {
-          "value": 18441,
-          "valid_from": "2024-06-15T20:00:00Z",
-          "valid_until": "2024-07-15T20:00:00Z",
-          "total": 24057,
-          "average_utilization": 23.34
+        "quality_score": {
+          "value": 88,
+          "segment_value": 88
         },
-        "credit_usage": {
-          "standard": 3442,
-          "featured": 1375,
-          "premium": 723
+        "verified_listings": {
+          "value": 39,
+          "segment_value": 0
+        },
+        "super_agents": {
+          "value": 75,
+          "segment_value": 44
+        },
+        "depth": {
+          "value": 20,
+          "segment_value": 25
         }
       }
     }

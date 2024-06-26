@@ -1,0 +1,69 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/calls-insights-hourly",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/calls-insights-hourly",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "mon": {
+        "answered_count": 28,
+        "unanswered_count": 2,
+        "canceled_count": 11,
+        "voicemail_count": 1
+      },
+      "tues": {
+        "answered_count": 30,
+        "unanswered_count": 4,
+        "canceled_count": 10,
+        "voicemail_count": 1
+      },
+      "wed": {
+        "answered_count": 22,
+        "unanswered_count": 5,
+        "canceled_count": 10,
+        "voicemail_count": 2
+      },
+      "thur": {
+        "answered_count": 29,
+        "unanswered_count": 5,
+        "canceled_count": 11,
+        "voicemail_count": 1
+      },
+      "fri": {
+        "answered_count": 27,
+        "unanswered_count": 4,
+        "canceled_count": 15,
+        "voicemail_count": 2
+      },
+      "sat": {
+        "answered_count": 14,
+        "unanswered_count": 2,
+        "canceled_count": 10,
+        "voicemail_count": 0
+      },
+      "sun": {
+        "answered_count": 11,
+        "unanswered_count": 2,
+        "canceled_count": 8,
+        "voicemail_count": 0
+      }
+    }
+  }
+}

@@ -103,21 +103,26 @@ func sendAPIRequest(req Request, authToken string) (*http.Response, error) {
 		)
 	}
 
-	httpReq.Header.Set(
-		"Authorization",
+	httpReq.Header.Add(
+		"authorization",
 		authToken,
 	)
 
-	/*	fmt.Printf(
-			"Sending request to %s with method %s\n",
-			req.URL,
-			req.Method,
-		)
+	/*	// Log the headers before sending the request
 		fmt.Printf(
-			"Request headers: %v\n",
-			httpReq.Header,
+			"Final Request Headers for URL %s:\n",
+			req.URL,
 		)*/
-
+	/*	for key, values := range httpReq.Header {
+			for _, value := range values {
+				fmt.Printf(
+					"%s: %s\n",
+					key,
+					value,
+				)
+			}
+		}
+	*/
 	return client.Do(httpReq)
 }
 
@@ -145,9 +150,29 @@ func main() {
 
 	// Example file paths
 	filePaths := []string{
-		"requests/request_leads-insights.json",
+		"requests/request_agents-breakdown-statistics.json",
+		"requests/request_charts-leads.json",
 		"requests/request_nsights-v1-credits.json",
-		// Add other file paths
+		"requests/request_agents-insights-top-statistics?type=leads.json",
+		"requests/request_charts-listings.json",
+		"requests/request_overview.json",
+		"requests/request_agents-insights-top-statistics?type=listings.jsonrequest_charts-lpl.json",
+		"requests/request_top-communities.json",
+		"requests/request_agents-insights-top-statistics?type=quality_score.jsonrequest_insights-v1-credits.json",
+		"requests/request_whatsapp-insights-daily.json",
+		"requests/request_agents.json",
+		"requests/request_insights-v1-filters.json",
+		"requests/request_whatsapp-insights-hourly.json",
+		"requests/request_calls-insights-daily.json",
+		"requests/request_insights-v1-inventory.json",
+		"requests/request_whatsapp-insights-last7days.json",
+		"requests/request_calls-insights-hourly.json",
+		"requests/request_leads-insights-last7days.json",
+		"requests/request_whatsapp-insights.json",
+		"requests/request_calls-insights-last7days.json",
+		"requests/request_leads-insights.json",
+		"requests/request_calls-insights.json",
+		"requests/request_listings-lpl.json",
 	}
 
 	for _, filePath := range filePaths {
@@ -171,29 +196,37 @@ func main() {
 			)
 			continue
 		}
+		//check if the response status is 200
+		if resp.StatusCode != 200 {
+			fmt.Printf(
+				"Error: Response status is not 200 for the endpoint: %s\n",
+				reqRes.Request.URL,
+			)
+			continue
+		}
 
 		defer resp.Body.Close()
 
-		// Log the request URL
-		fmt.Printf(
-			"Request URL: %s\n",
-			reqRes.Request.URL,
-		)
-		// Log the request method
-		fmt.Printf(
-			"Request method: %s\n",
-			reqRes.Request.Method,
-		)
-		// Log the request headers
-		fmt.Printf(
-			"Request headers: %v\n",
-			reqRes.Request.Headers,
-		)
-		// Log the response status
-		fmt.Printf(
-			"Response status: %d\n",
-			resp.StatusCode,
-		)
+		/*		// Log the request URL
+				fmt.Printf(
+					"Request URL: %s\n",
+					reqRes.Request.URL,
+				)
+				// Log the request method
+				fmt.Printf(
+					"Request method: %s\n",
+					reqRes.Request.Method,
+				)
+				// Log the request headers
+				fmt.Printf(
+					"Request headers: %v\n",
+					resp.Request.Header,
+				)
+				// Log the response status
+				fmt.Printf(
+					"Response status: %d\n",
+					resp.StatusCode,
+				)*/
 
 		body, err := io.ReadAll(resp.Body)
 		if err != nil {
@@ -204,11 +237,11 @@ func main() {
 			continue
 		}
 
-		// Log the response body
-		fmt.Printf(
-			"Response body: %s\n",
-			string(body),
-		)
+		/*		// Log the response body
+				fmt.Printf(
+					"Response body: %s\n",
+					string(body),
+				)*/
 
 		originalResponse := reqRes.Response.Body
 		newResponse := json.RawMessage(body)
@@ -217,14 +250,28 @@ func main() {
 			originalResponse,
 			newResponse,
 		)
-		fmt.Printf(
-			"Difference: %s\n",
-			diff,
-		)
-		fmt.Printf(
-			"Explanation: %s for the file %s\n",
-			explanation,
-			filePath,
-		)
+
+		// log the difference and skip the explanation if the difference value is "FullMatch"
+
+		diffrence := diff.String()
+
+		if diffrence == "FullMatch" {
+			fmt.Printf(
+				" ✓ Difference: %s for the endpoint: %s \n",
+				diff,
+				reqRes.Request.URL,
+			)
+			continue
+		} else {
+			fmt.Printf(
+				" X Difference: %s for the endpoint: %s \n",
+				diff,
+				reqRes.Request.URL,
+			)
+			fmt.Printf(
+				"Explanation: %s\n",
+				explanation,
+			)
+		}
 	}
 }

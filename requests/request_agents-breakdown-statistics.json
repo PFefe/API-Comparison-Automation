@@ -1,7 +1,7 @@
 {
   "request": {
-    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/credits",
-    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/credits",
+    "url": "https://api-v2.x.mycrm.com/stats/agents/breakdown-statistics",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/agents/breakdown-statistics",
     "method": "GET",
     "headers": {
       "accept": "*/*",
@@ -22,20 +22,11 @@
   "response": {
     "status": 200,
     "body": {
-      "data": {
-        "credits": {
-          "value": 18441,
-          "valid_from": "2024-06-15T20:00:00Z",
-          "valid_until": "2024-07-15T20:00:00Z",
-          "total": 24057,
-          "average_utilization": 23.34
-        },
-        "credit_usage": {
-          "standard": 3442,
-          "featured": 1375,
-          "premium": 723
-        }
-      }
+      "total_agents": 34,
+      "total_agents_change_percentage": -15,
+      "total_super_agents": 19,
+      "total_verified_agents": 31,
+      "total_other_agents": 3
     }
   }
 }

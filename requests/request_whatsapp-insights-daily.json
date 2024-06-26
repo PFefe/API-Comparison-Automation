@@ -1,0 +1,69 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/whatsapp-insights-daily",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/whatsapp-insights-daily",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "mon": {
+        "total_enquiries": 148,
+        "replied_count": 133,
+        "not_replied_count": 15,
+        "response_time": 25.23
+      },
+      "tues": {
+        "total_enquiries": 119,
+        "replied_count": 116,
+        "not_replied_count": 3,
+        "response_time": 100.74
+      },
+      "wed": {
+        "total_enquiries": 99,
+        "replied_count": 90,
+        "not_replied_count": 9,
+        "response_time": 72.66
+      },
+      "thur": {
+        "total_enquiries": 99,
+        "replied_count": 95,
+        "not_replied_count": 4,
+        "response_time": 81.81
+      },
+      "fri": {
+        "total_enquiries": 86,
+        "replied_count": 80,
+        "not_replied_count": 6,
+        "response_time": 33.04
+      },
+      "sat": {
+        "total_enquiries": 101,
+        "replied_count": 94,
+        "not_replied_count": 7,
+        "response_time": 98.43
+      },
+      "sun": {
+        "total_enquiries": 97,
+        "replied_count": 89,
+        "not_replied_count": 8,
+        "response_time": 71.8
+      }
+    }
+  }
+}

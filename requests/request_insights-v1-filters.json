@@ -1,0 +1,155 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/filters",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/filters",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "data": {
+        "default_filters": {
+          "type": "residential",
+          "offering_type": "rental",
+          "location": "All Locations",
+          "range_v2": {
+            "start": "2024-05-25",
+            "end": "2024-06-25"
+          },
+          "range": "",
+          "min_date": "2023-06-25"
+        },
+        "depth_product": [
+          "premium",
+          "standard",
+          "featured"
+        ],
+        "type": [
+          "commercial",
+          "residential"
+        ],
+        "range": [
+          "last_7_days"
+        ],
+        "offering_type": [
+          "all",
+          "rental",
+          "sale"
+        ],
+        "property_type": [
+          "Duplex",
+          "Land",
+          "Retail",
+          "Office Space",
+          "Factory",
+          "Apartment",
+          "Penthouse",
+          "Warehouse",
+          "Villa",
+          "Hotel u0026 Hotel Apartment",
+          "Full Floor",
+          "Townhouse"
+        ],
+        "completion_status": [
+          "completed_primary",
+          "completed_secondary",
+          "off_plan_primary",
+          "off_plan_secondary"
+        ],
+        "location": [
+          "Al Barari",
+          "Al Barsha",
+          "Al Furjan",
+          "Al Jaddaf",
+          "Al Kifaf",
+          "Al Manara",
+          "Al Quoz",
+          "Al Sufouh",
+          "Al Wasl",
+          "Arabian Ranches",
+          "Arabian Ranches 2",
+          "Arabian Ranches 3",
+          "Arjan",
+          "Barsha Heights (Tecom)",
+          "Bluewaters",
+          "Business Bay",
+          "City Walk",
+          "Culture Village",
+          "DAMAC Hills",
+          "DIFC",
+          "Damac Hills 2",
+          "Damac Lagoons",
+          "Discovery Gardens",
+          "Downtown Dubai",
+          "Dubai Creek Harbour (The Lagoons)",
+          "Dubai Harbour",
+          "Dubai Healthcare City",
+          "Dubai Hills Estate",
+          "Dubai Land",
+          "Dubai Marina",
+          "Dubai Media City",
+          "Dubai Production City (IMPZ)",
+          "Dubai Silicon Oasis",
+          "Dubai South (Dubai World Central)",
+          "Dubai Sports City",
+          "Emirates Hills",
+          "Emirates Hills 2",
+          "Falcon City of Wonders",
+          "Golf City",
+          "Greens",
+          "Jebel Ali",
+          "Jumeirah",
+          "Jumeirah Beach Residence",
+          "Jumeirah Golf Estates",
+          "Jumeirah Heights",
+          "Jumeirah Islands",
+          "Jumeirah Lake Towers",
+          "Jumeirah Park",
+          "Jumeirah Village Circle",
+          "Jumeirah Village Triangle",
+          "Meadows",
+          "Meydan",
+          "Mirdif",
+          "Mohammed Bin Rashid City",
+          "Motor City",
+          "Mudon",
+          "Nad Al Sheba",
+          "Nadd Al Sheba",
+          "Old Town",
+          "Palm Jebel Ali",
+          "Palm Jumeirah",
+          "Reem",
+          "The Hills",
+          "The Lakes",
+          "The Oasis by Emaar",
+          "The Springs",
+          "The Sustainable City",
+          "The Valley",
+          "The Views",
+          "The Villa",
+          "Tilal Al Ghaf",
+          "Town Square",
+          "Umm Al Sheif",
+          "Umm Suqeim",
+          "Wadi Al Safa 3",
+          "World Trade Center"
+        ]
+      }
+    }
+  }
+}

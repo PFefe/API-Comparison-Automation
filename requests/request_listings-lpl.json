@@ -1,0 +1,187 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/listings/lpl?chart_type=depth&start_date=2024-05-25&end_date=2024-06-25&offering_type=rental&type=residential",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/inventory",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "data": {
+        "datasets": {
+          "standard": [
+            {
+              "value": 4.72,
+              "interval_start_date": "2024-05-25",
+              "interval_end_date": "2024-05-27"
+            },
+            {
+              "value": 4.29,
+              "interval_start_date": "2024-05-28",
+              "interval_end_date": "2024-05-30"
+            },
+            {
+              "value": 4.81,
+              "interval_start_date": "2024-05-31",
+              "interval_end_date": "2024-06-02"
+            },
+            {
+              "value": 3.14,
+              "interval_start_date": "2024-06-03",
+              "interval_end_date": "2024-06-05"
+            },
+            {
+              "value": 2.75,
+              "interval_start_date": "2024-06-06",
+              "interval_end_date": "2024-06-08"
+            },
+            {
+              "value": 3.69,
+              "interval_start_date": "2024-06-09",
+              "interval_end_date": "2024-06-11"
+            },
+            {
+              "value": 3.16,
+              "interval_start_date": "2024-06-12",
+              "interval_end_date": "2024-06-14"
+            },
+            {
+              "value": 2.62,
+              "interval_start_date": "2024-06-15",
+              "interval_end_date": "2024-06-17"
+            },
+            {
+              "value": 3.75,
+              "interval_start_date": "2024-06-18",
+              "interval_end_date": "2024-06-20"
+            },
+            {
+              "value": 4.02,
+              "interval_start_date": "2024-06-21",
+              "interval_end_date": "2024-06-23"
+            }
+          ],
+          "featured": [
+            {
+              "value": 7,
+              "interval_start_date": "2024-05-25",
+              "interval_end_date": "2024-05-27"
+            },
+            {
+              "value": 11.83,
+              "interval_start_date": "2024-05-28",
+              "interval_end_date": "2024-05-30"
+            },
+            {
+              "value": 8.57,
+              "interval_start_date": "2024-05-31",
+              "interval_end_date": "2024-06-02"
+            },
+            {
+              "value": 4.21,
+              "interval_start_date": "2024-06-03",
+              "interval_end_date": "2024-06-05"
+            },
+            {
+              "value": 8.64,
+              "interval_start_date": "2024-06-06",
+              "interval_end_date": "2024-06-08"
+            },
+            {
+              "value": 9.34,
+              "interval_start_date": "2024-06-09",
+              "interval_end_date": "2024-06-11"
+            },
+            {
+              "value": 9.71,
+              "interval_start_date": "2024-06-12",
+              "interval_end_date": "2024-06-14"
+            },
+            {
+              "value": 8.24,
+              "interval_start_date": "2024-06-15",
+              "interval_end_date": "2024-06-17"
+            },
+            {
+              "value": 5,
+              "interval_start_date": "2024-06-18",
+              "interval_end_date": "2024-06-20"
+            },
+            {
+              "value": 7.35,
+              "interval_start_date": "2024-06-21",
+              "interval_end_date": "2024-06-23"
+            }
+          ],
+          "premium": [
+            {
+              "value": 60,
+              "interval_start_date": "2024-05-25",
+              "interval_end_date": "2024-05-27"
+            },
+            {
+              "value": 35,
+              "interval_start_date": "2024-05-28",
+              "interval_end_date": "2024-05-30"
+            },
+            {
+              "value": 25,
+              "interval_start_date": "2024-05-31",
+              "interval_end_date": "2024-06-02"
+            },
+            {
+              "value": 65,
+              "interval_start_date": "2024-06-03",
+              "interval_end_date": "2024-06-05"
+            },
+            {
+              "value": 60,
+              "interval_start_date": "2024-06-06",
+              "interval_end_date": "2024-06-08"
+            },
+            {
+              "value": 0,
+              "interval_start_date": "2024-06-09",
+              "interval_end_date": "2024-06-11"
+            },
+            {
+              "value": 4.29,
+              "interval_start_date": "2024-06-12",
+              "interval_end_date": "2024-06-14"
+            },
+            {
+              "value": 36.67,
+              "interval_start_date": "2024-06-15",
+              "interval_end_date": "2024-06-17"
+            },
+            {
+              "value": 43.85,
+              "interval_start_date": "2024-06-18",
+              "interval_end_date": "2024-06-20"
+            },
+            {
+              "value": 30,
+              "interval_start_date": "2024-06-21",
+              "interval_end_date": "2024-06-23"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/whatsapp-insights-hourly",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/whatsapp-insights-hourly",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "06": {
+        "total_enquiries": 41,
+        "total_not_replied_count": 2,
+        "total_response_time": 20.15,
+        "total_replied_count": 39
+      },
+      "07": {
+        "total_enquiries": 51,
+        "total_not_replied_count": 6,
+        "total_response_time": 14.51,
+        "total_replied_count": 45
+      },
+      "08": {
+        "total_enquiries": 61,
+        "total_not_replied_count": 4,
+        "total_response_time": 16.46,
+        "total_replied_count": 57
+      },
+      "09": {
+        "total_enquiries": 65,
+        "total_not_replied_count": 5,
+        "total_response_time": 50.17,
+        "total_replied_count": 60
+      },
+      "10": {
+        "total_enquiries": 46,
+        "total_not_replied_count": 4,
+        "total_response_time": 88.69,
+        "total_replied_count": 42
+      },
+      "11": {
+        "total_enquiries": 60,
+        "total_not_replied_count": 7,
+        "total_response_time": 13.57,
+        "total_replied_count": 53
+      },
+      "12": {
+        "total_enquiries": 50,
+        "total_not_replied_count": 1,
+        "total_response_time": 13.96,
+        "total_replied_count": 49
+      },
+      "13": {
+        "total_enquiries": 48,
+        "total_not_replied_count": 2,
+        "total_response_time": 13.24,
+        "total_replied_count": 46
+      },
+      "14": {
+        "total_enquiries": 40,
+        "total_not_replied_count": 2,
+        "total_response_time": 54.16,
+        "total_replied_count": 38
+      },
+      "15": {
+        "total_enquiries": 31,
+        "total_not_replied_count": 4,
+        "total_response_time": 132.22,
+        "total_replied_count": 27
+      },
+      "16": {
+        "total_enquiries": 28,
+        "total_not_replied_count": 2,
+        "total_response_time": 212.69,
+        "total_replied_count": 26
+      },
+      "17": {
+        "total_enquiries": 56,
+        "total_not_replied_count": 3,
+        "total_response_time": 32.43,
+        "total_replied_count": 53
+      },
+      "18": {
+        "total_enquiries": 30,
+        "total_not_replied_count": 4,
+        "total_response_time": 119.69,
+        "total_replied_count": 26
+      },
+      "19": {
+        "total_enquiries": 18,
+        "total_not_replied_count": 0,
+        "total_response_time": 253.56,
+        "total_replied_count": 18
+      },
+      "20": {
+        "total_enquiries": 20,
+        "total_not_replied_count": 1,
+        "total_response_time": 339.89,
+        "total_replied_count": 19
+      },
+      "21": {
+        "total_enquiries": 8,
+        "total_not_replied_count": 0,
+        "total_response_time": 343.38,
+        "total_replied_count": 8
+      },
+      "22": {
+        "total_enquiries": 5,
+        "total_not_replied_count": 0,
+        "total_response_time": 253.8,
+        "total_replied_count": 5
+      },
+      "23": {
+        "total_enquiries": 3,
+        "total_not_replied_count": 1,
+        "total_response_time": 164,
+        "total_replied_count": 2
+      }
+    }
+  }
+}

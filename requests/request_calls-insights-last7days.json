@@ -1,0 +1,124 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/calls-insights?dateRange=last-7-days",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/calls-insights?dateRange=last-7-days",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "total_count": 71,
+      "total_count_change": -7.79,
+      "total_answered_rate": 0.61,
+      "total_answered_rate_change": -1.61,
+      "total_answered_count": 43,
+      "total_unanswered_rate": 0.27,
+      "total_unanswered_count": 19,
+      "total_canceled_rate": 0.1,
+      "total_canceled_count": 7,
+      "total_voicemail_rate": 0.03,
+      "total_voicemail_count": 2,
+      "data": [
+        {
+          "total_count": 10,
+          "answered_count": 7,
+          "answered_rate": 0.7,
+          "unanswered_count": 1,
+          "unanswered_rate": 0.1,
+          "canceled_count": 2,
+          "canceled_rate": 0.2,
+          "voicemail_count": 0,
+          "voicemail_rate": 0,
+          "date": "2024-06-19T00:00:00Z"
+        },
+        {
+          "total_count": 21,
+          "answered_count": 14,
+          "answered_rate": 0.67,
+          "unanswered_count": 3,
+          "unanswered_rate": 0.14,
+          "canceled_count": 3,
+          "canceled_rate": 0.14,
+          "voicemail_count": 1,
+          "voicemail_rate": 0.05,
+          "date": "2024-06-20T00:00:00Z"
+        },
+        {
+          "total_count": 16,
+          "answered_count": 7,
+          "answered_rate": 0.44,
+          "unanswered_count": 9,
+          "unanswered_rate": 0.56,
+          "canceled_count": 0,
+          "canceled_rate": 0,
+          "voicemail_count": 0,
+          "voicemail_rate": 0,
+          "date": "2024-06-21T00:00:00Z"
+        },
+        {
+          "total_count": 5,
+          "answered_count": 2,
+          "answered_rate": 0.4,
+          "unanswered_count": 1,
+          "unanswered_rate": 0.2,
+          "canceled_count": 2,
+          "canceled_rate": 0.4,
+          "voicemail_count": 0,
+          "voicemail_rate": 0,
+          "date": "2024-06-22T00:00:00Z"
+        },
+        {
+          "total_count": 6,
+          "answered_count": 4,
+          "answered_rate": 0.67,
+          "unanswered_count": 2,
+          "unanswered_rate": 0.33,
+          "canceled_count": 0,
+          "canceled_rate": 0,
+          "voicemail_count": 0,
+          "voicemail_rate": 0,
+          "date": "2024-06-23T00:00:00Z"
+        },
+        {
+          "total_count": 5,
+          "answered_count": 2,
+          "answered_rate": 0.4,
+          "unanswered_count": 3,
+          "unanswered_rate": 0.6,
+          "canceled_count": 0,
+          "canceled_rate": 0,
+          "voicemail_count": 0,
+          "voicemail_rate": 0,
+          "date": "2024-06-24T00:00:00Z"
+        },
+        {
+          "total_count": 8,
+          "answered_count": 7,
+          "answered_rate": 0.88,
+          "unanswered_count": 0,
+          "unanswered_rate": 0,
+          "canceled_count": 0,
+          "canceled_rate": 0,
+          "voicemail_count": 1,
+          "voicemail_rate": 0.12,
+          "date": "2024-06-25T00:00:00Z"
+        }
+      ]
+    }
+  }
+}

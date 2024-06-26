@@ -1,0 +1,62 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/agents-insights-top-statistics?type=quality_score",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/agents-insights-top-statistics?type=quality_score",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": [
+      {
+        "agent_id": 203942,
+        "name": "Heinrich Beukes",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/25699f/203942-ca34fo.jpg?ctr=ae",
+        "value": 1,
+        "is_super_agent": false
+      },
+      {
+        "agent_id": 268556,
+        "name": "Phoenix agent 36",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/e70212/268556-b3f6co.jpg?ctr=ae",
+        "value": 1,
+        "is_super_agent": false
+      },
+      {
+        "agent_id": 210135,
+        "name": "Enda Sexton",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/7e6b36/210135-6fbf2o.jpg?ctr=ae",
+        "value": 0.99,
+        "is_super_agent": true
+      },
+      {
+        "agent_id": 265928,
+        "name": "Luke Wellens",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/4f1d7a/265928-21131o.webp?ctr=ae",
+        "value": 0.98,
+        "is_super_agent": false
+      },
+      {
+        "agent_id": 228997,
+        "name": "Sabah Kashif",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/b2bf01/228997-59b6fo.jpg?ctr=ae",
+        "value": 0.97,
+        "is_super_agent": true
+      }
+    ]
+  }
+}

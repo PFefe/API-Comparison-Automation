@@ -1,0 +1,92 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/whatsapp-insights?dateRange=last-7-days",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/whatsapp-insights?dateRange=last-7-days",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "total_enquiries": 166,
+      "total_enquiries_change": -29.96,
+      "total_response_rate": 0.96,
+      "total_response_rate_change": 1.05,
+      "total_replied_count": 160,
+      "total_not_replied_count": 6,
+      "total_response_time": 61.05142857142857,
+      "data": [
+        {
+          "total_enquiries": 19,
+          "replied_count": 18,
+          "not_replied_count": 1,
+          "response_rate": 0.95,
+          "response_time": 82.17,
+          "date": "2024-06-19T00:00:00Z"
+        },
+        {
+          "total_enquiries": 23,
+          "replied_count": 22,
+          "not_replied_count": 1,
+          "response_rate": 0.96,
+          "response_time": 38.45,
+          "date": "2024-06-20T00:00:00Z"
+        },
+        {
+          "total_enquiries": 28,
+          "replied_count": 26,
+          "not_replied_count": 2,
+          "response_rate": 0.93,
+          "response_time": 36.27,
+          "date": "2024-06-21T00:00:00Z"
+        },
+        {
+          "total_enquiries": 25,
+          "replied_count": 25,
+          "not_replied_count": 0,
+          "response_rate": 1,
+          "response_time": 196.52,
+          "date": "2024-06-22T00:00:00Z"
+        },
+        {
+          "total_enquiries": 20,
+          "replied_count": 20,
+          "not_replied_count": 0,
+          "response_rate": 1,
+          "response_time": 55.25,
+          "date": "2024-06-23T00:00:00Z"
+        },
+        {
+          "total_enquiries": 24,
+          "replied_count": 23,
+          "not_replied_count": 1,
+          "response_rate": 0.96,
+          "response_time": 12.78,
+          "date": "2024-06-24T00:00:00Z"
+        },
+        {
+          "total_enquiries": 27,
+          "replied_count": 26,
+          "not_replied_count": 1,
+          "response_rate": 0.96,
+          "response_time": 5.92,
+          "date": "2024-06-25T00:00:00Z"
+        }
+      ]
+    }
+  }
+}

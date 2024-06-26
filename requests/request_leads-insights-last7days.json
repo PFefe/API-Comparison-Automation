@@ -1,0 +1,81 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/leads-insights?dateRange=last-7-days",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/leads-insights?dateRange=last-7-days",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    },
+    "queries": {
+      "dateRange": "last-7-days"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "total_whatsapp_count": 166,
+      "total_whatsapp_rate": 0.69,
+      "total_calls_count": 71,
+      "total_calls_rate": 0.3,
+      "total_email_count": 3,
+      "total_email_rate": 0.01,
+      "total_leads": 240,
+      "data": [
+        {
+          "whatsapp_count": 95,
+          "calls_count": 110,
+          "email_count": 0,
+          "date": "2024-06-19T00:00:00Z"
+        },
+        {
+          "whatsapp_count": 230,
+          "calls_count": 294,
+          "email_count": 0,
+          "date": "2024-06-20T00:00:00Z"
+        },
+        {
+          "whatsapp_count": 252,
+          "calls_count": 224,
+          "email_count": 0,
+          "date": "2024-06-21T00:00:00Z"
+        },
+        {
+          "whatsapp_count": 75,
+          "calls_count": 80,
+          "email_count": 0,
+          "date": "2024-06-22T00:00:00Z"
+        },
+        {
+          "whatsapp_count": 100,
+          "calls_count": 78,
+          "email_count": 0,
+          "date": "2024-06-23T00:00:00Z"
+        },
+        {
+          "whatsapp_count": 120,
+          "calls_count": 85,
+          "email_count": 85,
+          "date": "2024-06-24T00:00:00Z"
+        },
+        {
+          "whatsapp_count": 135,
+          "calls_count": 104,
+          "email_count": 130,
+          "date": "2024-06-25T00:00:00Z"
+        }
+      ]
+    }
+  }
+}

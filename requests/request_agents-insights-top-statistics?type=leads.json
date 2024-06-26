@@ -1,0 +1,62 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/agents-insights-top-statistics?type=leads",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/agents-insights-top-statistics?type=leads",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": [
+      {
+        "agent_id": 235733,
+        "name": "Neeraj Bansal",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/3f1aa6/235733-fcf9bo.jpg?ctr=ae",
+        "value": 281,
+        "is_super_agent": false
+      },
+      {
+        "agent_id": 228997,
+        "name": "Sabah Kashif",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/b2bf01/228997-59b6fo.jpg?ctr=ae",
+        "value": 157,
+        "is_super_agent": true
+      },
+      {
+        "agent_id": 255331,
+        "name": "Anastasiia Kurochkina",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/955efb/255331-b859bo.webp?ctr=ae",
+        "value": 137,
+        "is_super_agent": false
+      },
+      {
+        "agent_id": 209065,
+        "name": "Julie Conway",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/7c6598/209065-cd0b0o.jpg?ctr=ae",
+        "value": 136,
+        "is_super_agent": true
+      },
+      {
+        "agent_id": 203952,
+        "name": "Radhika Mody",
+        "image_url": "https://www.propertyfinder.ae/agent/0/130/100/MODE/fe5d2c/203952-32487o.jpg?ctr=ae",
+        "value": 130,
+        "is_super_agent": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,926 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/listings/top-communities?type=residential&offering_type=rental&start_date=2024-05-25&end_date=2024-06-25",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/inventory",
+    "method": "GET",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "data": [
+        {
+          "community": "Palm Jumeirah",
+          "community_listings": 10,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/86/64fea6a5f063be99be19f6628f9f3ca7/thumb.jpeg",
+          "share_of_listings": 0.36,
+          "share_of_leads": 0.2,
+          "lpl": 1.9,
+          "segment_lpl": 1.55,
+          "depth": 0,
+          "segment_depth": 35.34,
+          "details": {
+            "own": {
+              "quality_score": 85.1,
+              "verified_listings": 27.3,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 86.8,
+              "verified_listings": 0,
+              "super_agents": 72.41
+            }
+          }
+        },
+        {
+          "community": "Dubai Creek Harbour (The Lagoons)",
+          "community_listings": 8,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/48/38c856ca478f0a64dd52d8ee4cbb3e6f/thumb.jpeg",
+          "share_of_listings": 0.3,
+          "share_of_leads": 0.21,
+          "lpl": 2.23,
+          "segment_lpl": 9.09,
+          "depth": 14.13,
+          "segment_depth": 22.5,
+          "details": {
+            "own": {
+              "quality_score": 87.9,
+              "verified_listings": 38.29,
+              "super_agents": 91.82
+            },
+            "benchmark": {
+              "quality_score": 87.04,
+              "verified_listings": 0,
+              "super_agents": 94
+            }
+          }
+        },
+        {
+          "community": "Dubai Hills Estate",
+          "community_listings": 8,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/105/8cc15390384397f883b1c66105a22990/thumb.jpeg",
+          "share_of_listings": 0.42,
+          "share_of_leads": 0.22,
+          "lpl": 3.04,
+          "segment_lpl": 3.97,
+          "depth": 0,
+          "segment_depth": 18.21,
+          "details": {
+            "own": {
+              "quality_score": 91.58,
+              "verified_listings": 58.3,
+              "super_agents": 40.49
+            },
+            "benchmark": {
+              "quality_score": 94.86,
+              "verified_listings": 0,
+              "super_agents": 100
+            }
+          }
+        },
+        {
+          "community": "Town Square",
+          "community_listings": 6,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/131/9e8ef5c42f7fd6684481d5b4b2db3f8b/thumb.jpeg",
+          "share_of_listings": 1.03,
+          "share_of_leads": 1.4,
+          "lpl": 14.54,
+          "segment_lpl": 0.88,
+          "depth": 13.27,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 81.07,
+              "verified_listings": 5.61,
+              "super_agents": 6.12
+            },
+            "benchmark": {
+              "quality_score": 76.73,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Jumeirah Lake Towers",
+          "community_listings": 6,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/71/1f9073401f77041907e5434e24153a45/thumb.jpeg",
+          "share_of_listings": 0.41,
+          "share_of_leads": 0.31,
+          "lpl": 4.44,
+          "segment_lpl": 11.42,
+          "depth": 8.67,
+          "segment_depth": 29.17,
+          "details": {
+            "own": {
+              "quality_score": 89.57,
+              "verified_listings": 48.47,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 94.95,
+              "verified_listings": 0,
+              "super_agents": 100
+            }
+          }
+        },
+        {
+          "community": "Arabian Ranches",
+          "community_listings": 6,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/34/f3563474126e0d074e14dab65497c8ea/thumb.jpeg",
+          "share_of_listings": 2.47,
+          "share_of_leads": 1.68,
+          "lpl": 5.85,
+          "segment_lpl": 0,
+          "depth": 64.62,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 82.08,
+              "verified_listings": 14.87,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Dubai Marina",
+          "community_listings": 6,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/50/c9ef849d9c2587d77f130d6bd7bcf3ea/thumb.jpeg",
+          "share_of_listings": 0.1,
+          "share_of_leads": 0.1,
+          "lpl": 4.26,
+          "segment_lpl": 3.76,
+          "depth": 26.23,
+          "segment_depth": 7.89,
+          "details": {
+            "own": {
+              "quality_score": 95.25,
+              "verified_listings": 77.05,
+              "super_agents": 75.96
+            },
+            "benchmark": {
+              "quality_score": 94.33,
+              "verified_listings": 0,
+              "super_agents": 100
+            }
+          }
+        },
+        {
+          "community": "Downtown Dubai",
+          "community_listings": 6,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/41/2492ad621e3f175405d305fd85cb722c/thumb.jpeg",
+          "share_of_listings": 0.09,
+          "share_of_leads": 0.12,
+          "lpl": 4.55,
+          "segment_lpl": 3.61,
+          "depth": 21.91,
+          "segment_depth": 11.16,
+          "details": {
+            "own": {
+              "quality_score": 83.68,
+              "verified_listings": 19.1,
+              "super_agents": 67.98
+            },
+            "benchmark": {
+              "quality_score": 82.85,
+              "verified_listings": 0,
+              "super_agents": 97.46
+            }
+          }
+        },
+        {
+          "community": "Arabian Ranches 2",
+          "community_listings": 5,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/8899/bbc4df920ac055073bb95b33fa2f7f80/thumb.jpeg",
+          "share_of_listings": 1.65,
+          "share_of_leads": 2.65,
+          "lpl": 7.09,
+          "segment_lpl": 0,
+          "depth": 36.97,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 95.65,
+              "verified_listings": 79.39,
+              "super_agents": 84.24
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Jumeirah Beach Residence",
+          "community_listings": 5,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/67/4040d9d29a5df31ff32fc07ed8283749/thumb.jpeg",
+          "share_of_listings": 0.27,
+          "share_of_leads": 0.35,
+          "lpl": 3.8,
+          "segment_lpl": 4.99,
+          "depth": 0,
+          "segment_depth": 22.53,
+          "details": {
+            "own": {
+              "quality_score": 87,
+              "verified_listings": 35.44,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 95,
+              "verified_listings": 0,
+              "super_agents": 100
+            }
+          }
+        },
+        {
+          "community": "Mohammed Bin Rashid City",
+          "community_listings": 5,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/104/b2aa8bc1bbfaac0bd47886a44b52e0c6/thumb.jpeg",
+          "share_of_listings": 0.19,
+          "share_of_leads": 0.09,
+          "lpl": 1.59,
+          "segment_lpl": 0.45,
+          "depth": 11.92,
+          "segment_depth": 39.62,
+          "details": {
+            "own": {
+              "quality_score": 88.3,
+              "verified_listings": 42.38,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 88.66,
+              "verified_listings": 0,
+              "super_agents": 60.38
+            }
+          }
+        },
+        {
+          "community": "Al Jaddaf",
+          "community_listings": 4,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/17/ac48cf85cf8a5695b42c3c880a4f0b4e/thumb.jpeg",
+          "share_of_listings": 0.49,
+          "share_of_leads": 0.04,
+          "lpl": 0.45,
+          "segment_lpl": 1.67,
+          "depth": 0,
+          "segment_depth": 17.17,
+          "details": {
+            "own": {
+              "quality_score": 78.03,
+              "verified_listings": 0,
+              "super_agents": 98.51
+            },
+            "benchmark": {
+              "quality_score": 78.94,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Jumeirah Golf Estates",
+          "community_listings": 4,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/68/9348fc41b1a2e8af32507650acb084ee/thumb.jpeg",
+          "share_of_listings": 2.01,
+          "share_of_leads": 1.63,
+          "lpl": 4.6,
+          "segment_lpl": 0,
+          "depth": 48.39,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 90.69,
+              "verified_listings": 54.03,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Al Furjan",
+          "community_listings": 3,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/14/0710d67f5efe4b02a6108ad71d78071b/thumb.jpeg",
+          "share_of_listings": 0.39,
+          "share_of_leads": 0.16,
+          "lpl": 3.33,
+          "segment_lpl": 1.79,
+          "depth": 0,
+          "segment_depth": 19.49,
+          "details": {
+            "own": {
+              "quality_score": 95,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 71.13,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Dubai Sports City",
+          "community_listings": 3,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/55/232f7787fa1dfde34d8e23deaf4051ff/thumb.jpeg",
+          "share_of_listings": 0.47,
+          "share_of_leads": 0.31,
+          "lpl": 8.57,
+          "segment_lpl": 3,
+          "depth": 54.95,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 82.71,
+              "verified_listings": 15.38,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 73.75,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Jumeirah",
+          "community_listings": 3,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/66/88917d13ab431102d5c17a4895cb2815/thumb.jpeg",
+          "share_of_listings": 0.37,
+          "share_of_leads": 0.13,
+          "lpl": 1.88,
+          "segment_lpl": 0.2,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 82.92,
+              "verified_listings": 17.5,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 77.24,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Arabian Ranches 3",
+          "community_listings": 2,
+          "image": "",
+          "share_of_listings": 0.76,
+          "share_of_leads": 0.31,
+          "lpl": 2.96,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 95.94,
+              "verified_listings": 84.51,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Motor City",
+          "community_listings": 2,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/80/51ffc607b825398c428f6ada7f20c059/thumb.jpeg",
+          "share_of_listings": 1.58,
+          "share_of_leads": 0.67,
+          "lpl": 4.55,
+          "segment_lpl": 0,
+          "depth": 48.48,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 99.24,
+              "verified_listings": 95.45,
+              "super_agents": 95.45
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Jumeirah Village Triangle",
+          "community_listings": 2,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/74/ea9e985c80e954f951e77bd2bd8cadf3/thumb.jpeg",
+          "share_of_listings": 0.91,
+          "share_of_leads": 1.9,
+          "lpl": 24.55,
+          "segment_lpl": 6.82,
+          "depth": 60.61,
+          "segment_depth": 92.49,
+          "details": {
+            "own": {
+              "quality_score": 95.94,
+              "verified_listings": 78.79,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 79.69,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Meadows",
+          "community_listings": 2,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/76/b4a1a025ed2029723457f88df882bf19/thumb.jpeg",
+          "share_of_listings": 1.29,
+          "share_of_leads": 0.24,
+          "lpl": 1.41,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Umm Suqeim",
+          "community_listings": 2,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/98/b8de0e906e75da8d86cc76ae676ee102/thumb.jpeg",
+          "share_of_listings": 0.28,
+          "share_of_leads": 0.27,
+          "lpl": 4.91,
+          "segment_lpl": 0,
+          "depth": 36.36,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 99.62,
+              "verified_listings": 98.18,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Al Barari",
+          "community_listings": 2,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/12/fed63cdb14ced44beb6b7d611bc6c45d/thumb.jpeg",
+          "share_of_listings": 0.96,
+          "share_of_leads": 0.7,
+          "lpl": 2.45,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Jumeirah Village Circle",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/73/af9fdb63de8474190110c90a2e890bee/thumb.jpeg",
+          "share_of_listings": 0.02,
+          "share_of_leads": 0.22,
+          "lpl": 60,
+          "segment_lpl": 2.69,
+          "depth": 36.36,
+          "segment_depth": 12.98,
+          "details": {
+            "own": {
+              "quality_score": 97.81,
+              "verified_listings": 90.91,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 83.79,
+              "verified_listings": 0,
+              "super_agents": 14.86
+            }
+          }
+        },
+        {
+          "community": "Business Bay",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/36/5b6c4bf919dee10517d9c6dcf36d9a63/thumb.jpeg",
+          "share_of_listings": 0.02,
+          "share_of_leads": 0.05,
+          "lpl": 11.82,
+          "segment_lpl": 6.59,
+          "depth": 42.42,
+          "segment_depth": 17.12,
+          "details": {
+            "own": {
+              "quality_score": 94.81,
+              "verified_listings": 60.61,
+              "super_agents": 63.64
+            },
+            "benchmark": {
+              "quality_score": 86.34,
+              "verified_listings": 0,
+              "super_agents": 86.33
+            }
+          }
+        },
+        {
+          "community": "Tilal Al Ghaf",
+          "community_listings": 1,
+          "image": "",
+          "share_of_listings": 0.31,
+          "share_of_leads": 0.06,
+          "lpl": 0.94,
+          "segment_lpl": 0,
+          "depth": 40.63,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 98.98,
+              "verified_listings": 100,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "The Springs",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/89/ee9beaab6ef9b24d6f827157b1c67332/thumb.jpeg",
+          "share_of_listings": 0.23,
+          "share_of_leads": 0.17,
+          "lpl": 5.63,
+          "segment_lpl": 0,
+          "depth": 65.63,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 83.13,
+              "verified_listings": 18.75,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "The Sustainable City",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/130/b4bd4350609aa798a86b251416fc5bc8/thumb.jpeg",
+          "share_of_listings": 3.6,
+          "share_of_leads": 3.81,
+          "lpl": 7.5,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Greens",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/60/7634c2adc2b6c41e53ffb4a720cc5234/thumb.jpeg",
+          "share_of_listings": 0.39,
+          "share_of_leads": 0.19,
+          "lpl": 3.75,
+          "segment_lpl": 12,
+          "depth": 0,
+          "segment_depth": 30,
+          "details": {
+            "own": {
+              "quality_score": 100,
+              "verified_listings": 100,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 93.36,
+              "verified_listings": 0,
+              "super_agents": 100
+            }
+          }
+        },
+        {
+          "community": "Dubai Land",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/49/ca7f5ac8f017954957979436d1d710f5/thumb.jpeg",
+          "share_of_listings": 0.1,
+          "share_of_leads": 0.03,
+          "lpl": 2.81,
+          "segment_lpl": 4.24,
+          "depth": 46.88,
+          "segment_depth": 23.71,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 78.24,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Dubai Harbour",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/9754/6bc57bfc0e514dc4ba92d6174735e6a4/thumb.jpeg",
+          "share_of_listings": 0.1,
+          "share_of_leads": 0.04,
+          "lpl": 0.94,
+          "segment_lpl": 2.58,
+          "depth": 46.88,
+          "segment_depth": 36.71,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 95,
+              "verified_listings": 0,
+              "super_agents": 100
+            }
+          }
+        },
+        {
+          "community": "Dubai South (Dubai World Central)",
+          "community_listings": 1,
+          "image": "",
+          "share_of_listings": 0.11,
+          "share_of_leads": 0.11,
+          "lpl": 13.33,
+          "segment_lpl": 15,
+          "depth": 66.67,
+          "segment_depth": 80.13,
+          "details": {
+            "own": {
+              "quality_score": 81.48,
+              "verified_listings": 7.41,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 79.35,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "The Villa",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/114/6cebca9d4d0349a3bbec531ac15a16c8/thumb.jpeg",
+          "share_of_listings": 0.6,
+          "share_of_leads": 0.41,
+          "lpl": 3.91,
+          "segment_lpl": 0,
+          "depth": 73.91,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 100,
+              "verified_listings": 100,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Nad Al Sheba",
+          "community_listings": 1,
+          "image": "",
+          "share_of_listings": 0.27,
+          "share_of_leads": 0.11,
+          "lpl": 3.16,
+          "segment_lpl": 0,
+          "depth": 10.53,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Barsha Heights (Tecom)",
+          "community_listings": 1,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/91/3a407613787a6e709659f43afefdcf46/thumb.jpeg",
+          "share_of_listings": 0.17,
+          "share_of_leads": 0.07,
+          "lpl": 3.33,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Meydan",
+          "community_listings": 0,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/113/63c9d0897c843ce481cb032eec5b306a/thumb.jpeg",
+          "share_of_listings": 0.02,
+          "share_of_leads": 0.07,
+          "lpl": 20.77,
+          "segment_lpl": 0.81,
+          "depth": 0,
+          "segment_depth": 10.45,
+          "details": {
+            "own": {
+              "quality_score": 100,
+              "verified_listings": 100,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 77.08,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Damac Hills 2",
+          "community_listings": 0,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/125/fffd0e33f79384147e23dfe771d9183e/thumb.jpeg",
+          "share_of_listings": 0.04,
+          "share_of_leads": 0.07,
+          "lpl": 21,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 75.75,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "The Valley",
+          "community_listings": 0,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/10757/9b5937d4016b1da8067abd3509c1003b/thumb.jpeg",
+          "share_of_listings": 0.09,
+          "share_of_leads": 0,
+          "lpl": 0,
+          "segment_lpl": 0.32,
+          "depth": 0,
+          "segment_depth": 36.84,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 73,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Reem",
+          "community_listings": 0,
+          "image": "",
+          "share_of_listings": 0.05,
+          "share_of_leads": 0.13,
+          "lpl": 18,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 79,
+              "verified_listings": 0,
+              "super_agents": 100
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        },
+        {
+          "community": "Mudon",
+          "community_listings": 0,
+          "image": "https://pf-graph-images-production.s3.ap-southeast-1.amazonaws.com/ae/community/8250/2e95ed9988a3fc02bed77d3d5ec93d2c/thumb.jpeg",
+          "share_of_listings": 0.06,
+          "share_of_leads": 0.06,
+          "lpl": 7.5,
+          "segment_lpl": 0,
+          "depth": 0,
+          "segment_depth": 0,
+          "details": {
+            "own": {
+              "quality_score": 80,
+              "verified_listings": 0,
+              "super_agents": 0
+            },
+            "benchmark": {
+              "quality_score": 0,
+              "verified_listings": 0,
+              "super_agents": 0
+            }
+          }
+        }
+      ]
+    }
+  }
+}
