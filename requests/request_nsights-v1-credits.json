@@ -1,0 +1,41 @@
+{
+  "request": {
+    "url": "https://api-v2.x.mycrm.com/stats/insights/v1/credits",
+    "raw_url": "https://api-v2.x.mycrm.com/stats/insights/v1/credits",
+    "method": "get",
+    "headers": {
+      "accept": "*/*",
+      "accept-language": "en",
+      "domain": "",
+      "origin": "https://expert-staging.propertyfinder.ae",
+      "priority": "u=1, i",
+      "referer": "https://expert-staging.propertyfinder.ae/",
+      "sec-ch-ua": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "data": {
+        "credits": {
+          "value": 18466,
+          "valid_from": "2024-06-15T20:00:00Z",
+          "valid_until": "2024-07-15T20:00:00Z",
+          "total": 24057,
+          "average_utilization": 23.24
+        },
+        "credit_usage": {
+          "standard": 3442,
+          "featured": 1375,
+          "premium": 723
+        }
+      }
+    }
+  }
+}
